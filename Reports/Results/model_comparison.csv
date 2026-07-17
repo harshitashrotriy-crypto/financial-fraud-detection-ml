@@ -1,0 +1,5 @@
+Metric,Random Forest,XGBoost
+Accuracy,1.0,1.0
+Precision,1.0,0.9844
+Recall,0.9845,0.9767
+F1 Score,0.9922,0.9805

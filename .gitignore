@@ -1,15 +1,13 @@
+# Ignore datasets
+Data/Raw/*.csv
+Data/Processed/*.csv
+
+# Ignore trained models
+*.pkl
+
+# Python cache
 __pycache__/
 *.pyc
-*.pyo
 
+# VS Code
 .vscode/
-
-.ipynb_checkpoints/
-
-Models/*.pkl
-
-.env
-
-.DS_Store
-
-Thumbs.db
