@@ -1,117 +1,50 @@
-# Financial Fraud Detection using Machine Learning
+# 💳 Financial Fraud Detection using Machine Learning
 
-## Overview
-
-This project detects fraudulent financial transactions using Machine Learning techniques. The model is trained on over 6.3 million real-world transaction records and predicts whether a transaction is fraudulent.
+An end-to-end Machine Learning project that detects fraudulent financial transactions using engineered features and supervised learning algorithms.
 
 ---
 
-## Dataset
+## 📌 Project Overview
 
-- Transactions: 6,362,620
-- Features: 16
-- Fraud Cases: 8,213
-- Fraud Rate: 0.129%
+Financial fraud has become one of the biggest challenges in digital banking and online transactions. This project develops an end-to-end fraud detection system capable of identifying fraudulent transactions with very high accuracy using machine learning.
 
----
+The project covers the complete data science pipeline, including:
 
-## Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Scikit-learn
-- XGBoost
-- Joblib
-- VS Code
-
----
-
-## Project Workflow
-
-1. Data Loading
-2. Exploratory Data Analysis (EDA)
-3. Data Visualization
-4. Feature Engineering
-5. Data Preprocessing
-6. Random Forest Model
-7. XGBoost Model
-8. Feature Importance
-9. Model Saving
-10. Fraud Prediction
-11. Model Comparison
-12. Data Leakage Check
-13. Cross Validation
+- Data Loading
+- Exploratory Data Analysis (EDA)
+- Data Visualization
+- Feature Engineering
+- Data Preprocessing
+- Random Forest Model
+- XGBoost Model
+- Model Comparison
+- Feature Importance Analysis
+- Data Leakage Verification
+- Cross Validation
+- Model Deployment using Pickle
 
 ---
 
-## Feature Engineering
+## 🎯 Project Objectives
 
-Created new features:
-
-- Sender Balance Difference
-- Receiver Balance Difference
-- Sender Account Emptied
-- Amount to Balance Ratio
-- High Value Transaction
-- Transaction Hour
-- Transaction Day
+- Detect fraudulent financial transactions accurately.
+- Perform exploratory data analysis to understand transaction patterns.
+- Engineer meaningful features to improve prediction performance.
+- Compare multiple machine learning models.
+- Evaluate models using multiple performance metrics.
+- Build a reusable fraud prediction model.
 
 ---
 
-## Model Performance
+## 🛠 Tech Stack
 
-### Random Forest
-
-- Accuracy: 100%
-- Precision: 100%
-- Recall: 98.45%
-- F1 Score: 99.22%
-
-### XGBoost
-
-- Accuracy: 100%
-- Precision: 98.44%
-- Recall: 97.67%
-- F1 Score: 98.05%
-
-Random Forest was selected as the final model.
+| Category | Technologies |
+|-----------|--------------|
+| Programming Language | Python |
+| Data Analysis | Pandas, NumPy |
+| Visualization | Matplotlib |
+| Machine Learning | Scikit-learn, XGBoost |
+| Model Saving | Joblib |
+| Version Control | Git & GitHub |
 
 ---
-
-## Cross Validation
-
-Average F1 Score: **99.26%**
-
----
-
-## Project Structure
-
-```
-Financial_Fraud_Detection_ML
-│
-├── Data
-├── Models
-├── Reports
-├── Python
-├── SQL
-├── Tableau
-└── README.md
-```
-
----
-
-## Future Improvements
-
-- Real-time fraud detection
-- Streamlit Web Application
-- REST API Deployment
-- Cloud Deployment
-- Deep Learning Models
-
----
-
-## Author
-
-Harshita Shrotriy
